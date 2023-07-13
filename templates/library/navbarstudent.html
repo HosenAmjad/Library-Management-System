@@ -1,0 +1,56 @@
+
+{% load static %}
+
+
+<style type="text/css">
+    .bs-example{
+        margin: 0px;
+
+    }
+.navbar-brand{
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a href="/" class="navbar-brand">Library Management</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="/" class="nav-item nav-link active">Home</a>
+
+
+                <!--for issuebook dropdown button-->
+                <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Issue Book</a>
+                  <div class="dropdown-menu">
+                    <a href="viewissuedbookbystudent" class="dropdown-item">View Issued Book</a>
+                  </div>
+                </div>
+
+
+            </div>
+
+            <div class="navbar-nav">
+                <a href="logout" class="nav-item nav-link">LOGOUT</a> &nbsp
+              
+            </div>
+
+
+
+
+        </div>
+    </nav>
+</div>
